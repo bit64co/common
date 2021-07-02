@@ -1,0 +1,29 @@
+{
+    "name": "bit64/common",
+    "description": "Common interfaces and utilities for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Warren Heyneke",
+            "email": "warren@bit64.co"
+        },
+        {
+            "name": "Bit 64 Solutions",
+            "homepage": "https://bit64.co"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bit64\\Common\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "require": {
+        "php": ">=7.3"
+    }
+}
